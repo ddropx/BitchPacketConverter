@@ -15,11 +15,15 @@ class ViewController: UIViewController {
     @IBAction func resultCountingButton(_ sender: UIButton) {
         guard let countingText = countingTextField.text, !countingText.isEmpty, let count = Int(countingText) else { return }
         let bitchCurrency = 38
-        var currencyResult = count * bitchCurrency
+        var currencyResult = count / bitchCurrency
         var printCurrencyResult = "Результат - \(currencyResult)"
         resultCountingLabel.text = printCurrencyResult
     }
-
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
