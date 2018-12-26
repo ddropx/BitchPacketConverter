@@ -12,6 +12,7 @@
 		68369145212ECA660016CA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68369143212ECA660016CA8E /* Main.storyboard */; };
 		68369147212ECA670016CA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68369146212ECA670016CA8E /* Assets.xcassets */; };
 		6836914A212ECA670016CA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68369148212ECA670016CA8E /* LaunchScreen.storyboard */; };
+		68D5DB9321D3D82D0038C20D /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 68D5DB9221D3D82D0038C20D /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		68369146212ECA670016CA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68369149212ECA670016CA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6836914B212ECA670016CA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D5DB9221D3D82D0038C20D /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		68369133212ECA660016CA8E = {
 			isa = PBXGroup;
 			children = (
+				68D5DB9221D3D82D0038C20D /* Localizable.stringsdict */,
 				6836913E212ECA660016CA8E /* BitchPacketConverter */,
 				6836913D212ECA660016CA8E /* Products */,
 			);
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6836914A212ECA670016CA8E /* LaunchScreen.storyboard in Resources */,
+				68D5DB9321D3D82D0038C20D /* Localizable.stringsdict in Resources */,
 				68369147212ECA670016CA8E /* Assets.xcassets in Resources */,
 				68369145212ECA660016CA8E /* Main.storyboard in Resources */,
 			);

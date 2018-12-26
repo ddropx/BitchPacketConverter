@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>result is bitchpackets</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>не накопил на доширак</string>
+			<key>one</key>
+			<string>%d доширак</string>
+			<key>two</key>
+			<string>%d доширака</string>
+			<key>few</key>
+			<string>%d доширака</string>
+			<key>many</key>
+			<string>%d дошираков</string>
+			<key>other</key>
+			<string>%d дошираков</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

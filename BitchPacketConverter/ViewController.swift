@@ -16,8 +16,10 @@ class ViewController: UIViewController {
         guard let countingText = countingTextField.text, !countingText.isEmpty, let count = Int(countingText) else { return }
         let bitchCurrency = 38
         var currencyResult = count / bitchCurrency
-        var printCurrencyResult = "Результат - \(currencyResult)"
-        resultCountingLabel.text = printCurrencyResult
+        let name = "Результат - "
+        let myString = String(format: NSLocalizedString("result is bitchpackets", comment: ""), locale: Locale(identifier: "ru_RU"), currencyResult)
+        let result = "\(name)\(myString)"
+        resultCountingLabel.text = result
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
