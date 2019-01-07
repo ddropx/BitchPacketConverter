@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="put-II-Rqo">
-                                <rect key="frame" x="17" y="55.000000000000014" width="380" height="166.33333333333337"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="put-II-Rqo">
+                                <rect key="frame" x="17" y="55" width="380" height="556.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите сумму" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zII-Lx-PCz">
                                         <rect key="frame" x="128.66666666666666" y="0.0" width="123" height="20.333333333333332"/>
@@ -46,6 +46,12 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jjg-93-Qmi">
+                                        <rect key="frame" x="115" y="178.33333333333334" width="150" height="150.00000000000003"/>
+                                    </imageView>
+                                    <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mo8-Rp-Mc7">
+                                        <rect key="frame" x="30" y="340.33333333333331" width="320" height="215.99999999999994"/>
+                                    </pickerView>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -60,6 +66,8 @@
                     <connections>
                         <outlet property="countTextLabel" destination="zII-Lx-PCz" id="cT8-rc-iwv"/>
                         <outlet property="countingTextField" destination="1Eq-Hq-5bS" id="jFF-G9-PYP"/>
+                        <outlet property="imageView" destination="jjg-93-Qmi" id="g95-bR-Wbu"/>
+                        <outlet property="pickerView" destination="mo8-Rp-Mc7" id="aGR-8C-sHV"/>
                         <outlet property="resultCountingLabel" destination="G9I-F2-Mox" id="LWL-tZ-flL"/>
                     </connections>
                 </viewController>
